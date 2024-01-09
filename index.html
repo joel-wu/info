@@ -22,19 +22,19 @@
                 <p class="name" style="text-align: center;">
                   Yuheng Wu
                 </p>
-                <p>I'm currently pursuing the bachelor’s degree in electronic information engineering with the Electronic Information School, Wuhan University, Wuhan, China.
+                <p>I'm currently pursuing the bachelor's degree in electronic information engineering with the Electronic Information School, Wuhan University, Wuhan, China.
                 </p>
                 <p>
-                  My research interests include remote sensing image processing, computational imaging, and machine learning.
+                  My research interests include computational imaging, machine learning, and image processing.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:wuyuhengwhu@outlook.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jonbarron/">Github</a>
+                  <a href="/CV_wuyuheng_final.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/joel-wu">Github</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/JonBarron_circle.jpg" class="hoverZoomLink"></a>
+                <a href="/YUHENGWU.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/YUHENGWU.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -43,8 +43,18 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer vision, machine learning, optimization, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images.
-                </p>
+                  I am interested in developing systems proficient in the acquisition, reconstruction, analysis, and interpretation of information.
+                  <br><br>
+                  Presently, my work involves spectral reconstruction, computational imaging, and physics-informed AI. I am also interested in edge AI and open to other topics.
+                  <br><br>
+                  My previous experience includes vision and remote sensing projects, where I contributed to:
+                  </p><ol>
+                    <li>Interpretation of subpixel multi-spectral satellite maps, crucial for land resource management, geological disaster monitoring, and urban planning.</li>
+                    <br>
+                    <li>Generation of hyperspectral images, providing valuable and reliable training data for data-driven models.</li>
+
+                  </ol>
+                <p></p>
               </td>
             </tr>
           </tbody></table>
@@ -52,172 +62,85 @@
 
 
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
-          <source src="images/smerf.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/smerf.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
-          }
 
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
-          }
-          smerf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://smerf-3d.github.io/">
-          <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
-        </a>
-        <br>
-		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-		<a href="https://phogzone.com/">Peter Hedman*</a>,
-		<a href="https://creiser.github.io/">Christian Reiser</a>,
-		<a href="">Peter Zhizhin</a>,
-		<a href="">Jean-François Thibert</a>,
-        <a href="https://lucic.ai/">Mario Lučić</a>,
-        <a href="https://szeliski.org/">Richard Szeliski</a>,
-		<strong>Jonathan T. Barron</strong>
-        <br>
-        <em>arXiv</em>, 2023
-        <br>
-        <a href="https://smerf-3d.github.io/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-        /
-        <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
-        <p></p>
-        <p>
-        Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
-        </p>
-      </td>
-    </tr>
-	
-
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nuvo.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
-          }
-
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
-          }
-          nuvo_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
-        </a>
-        <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
-        <br>
-        <em>arXiv</em>, 2023
-        <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
-        <p></p>
-        <p>
-        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
-        </p>
-      </td>
-    </tr>
 
 
           </tbody></table>
 
-          
+          <br><br>
+          <br><br>
+
+          <!-- Experience -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px 20px;width:100%;vertical-align:middle">
+                  <h2>Experience</h2><h2>
+                </h2></td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+
+              <tr>
+                <td style="padding:10px 50px;width:25%;vertical-align:middle" align="center">
+                  <img src="./Anna Min_files/WHU_logo.png" style="border-style: none" height="100">
+                </td>
+
+                <td width="75%" valign="middle">
+                  <!-- heading -->
+                  <university>Wuhan University (Beijing, China)</university>
+                  <br>
+                  2020.09 ~ Now
+                  <br>
+                  Advisor: Prof. <a href="https://hangzhaomit.github.io/">Xiaoguang Mei</a>
+                  <!-- conference & date -->
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
             <tr>
               <td>
-                <h2>Miscellanea</h2>
+                <h2>Awards</h2>
+                <ul>
+                  <li>National Scholarship, Ministry of Education, P.R.China, 2021, 2023</li>
+                  <li>Gang Yu-Xiao Song Scholarship, Wuhan University, 2022</li>
+                  <li>First Class Scholarship for Outstanding Students, Wuhan University, 2021, 2022, 2023</li>
+                  <li>Outstanding Young Volunteer, Wuhan University, 2023</li>
+                </ul>
               </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
-              <td width="75%" valign="center">
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/cs188.jpg" alt="cs188">
-              </td>
-              <td width="75%" valign="center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-            </tr>
-            
 
-            <tr>
-              <td align="center" style="padding:20px;width:25%;vertical-align:middle">
-                <h2>Basically <br> Blog Posts</h2>
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
-                <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
-                <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
-                <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
-              </td>
             </tr>
-            
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
-                </p>
-              </td>
-            </tr>
+          </tbody>
+
+
+        </table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+
+
+<tr>
+  <td align="left">
+    <p>
+      Last updated Dec. 2023.
+    </p>
+    <p>
+      Template from <a href="https://jonbarron.info/">Jonathan Barron</a>.
+    </p>
+  </td>
+</tr>
+
+
+
           </tbody></table>
         </td>
       </tr>
-    </table>
-  </body>
-</html>
+    </tbody></table>
+
+
+</body></html>
